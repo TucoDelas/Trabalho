@@ -28,5 +28,6 @@ class Program
         Console.WriteLine("Juros pagos com o financiamento: R$ " + valorRestante*valorPercentual);
         Console.WriteLine("Quantidade de meses para pagar: " + mesesParaPagar);
         Console.WriteLine("Valor mensal a ser pago: R$ " + valorMensal);
+        Console.ReadKey();
     }
 }
